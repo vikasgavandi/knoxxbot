@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Show typing indicator
             showTypingIndicator();
 
-            return fetch('http://localhost:3002/chat/init', {
+            return fetch('http://170.64.228.217:3002/chat/init', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
